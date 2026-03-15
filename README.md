@@ -1,2 +1,5 @@
 # -atividade-diagnostica-2
-Segunda atividade passada!
+
+Sistemas Da Informação-1ºPeriodo Atividade de Desenvolvimento Web
+
+Leonardo Alves Augusto Corrêa
