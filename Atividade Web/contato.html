@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+
+<body>
+    <center>
+        <h1>Formulario para Contato!</h1>
+    </center>
+    <fieldset>
+        <form action="sucesso.html">
+            <p>
+                <label for="nome">Nome </label>
+                <br>
+                <input type="text" id="nome" name="nome">
+                <br>
+
+
+                <label for="email">Email</label>
+                <br>
+
+                <input type="email" id="email" name="email">
+                <br>
+                <label for="assunto">Assunto</label>
+                <br>
+
+                <input type="text" id="assunto" name="assunto">
+                <br>
+
+                <label for="mensagem">Caixa para mensagem abaixo !</label>
+            <p> <textarea name="mensagem" rows="4" cols="40"></textarea></p>
+            </p>
+    </fieldset>
+    <section>
+        <p>
+            <label for="telefone">Telefone</label>
+            <br>
+            <input type="tel" id="telefone" name="telefone" placeholder="(11) 1111-1111">
+            <br>
+            <label for="data">Data da mensagem</label>
+            <br>
+            <input type="data" id="data" placeholder="00/00/00">
+            <br><br>
+
+
+
+            <label for="radio">Como prefere o retorno do contato? </label>
+            <br>
+            <input type="radio" id="wpp" name="contato" value="0">
+            <label for="wpp">Whatzap</label>
+            <br>
+            <input type="radio" id="sms" name="contato" value="1">
+            <label for="sms">SMS</label>
+            <br>
+            <input type="radio" id="email" name="contato" value="2">
+            <label for="email">Email</label>
+            <br>
+            <input type="radio" id="insta" name="contato" value="3">
+            <label for="insta">Instagram</label>
+        </p>
+    </section>
+    <input type="submit" value="Enviar">
+    <input type="reset" value="Limpar">
+    </form>
+    <a href="index.html">Link de retorno</a>
+</body>
+
+</html>
